@@ -1,0 +1,84 @@
+body {
+    width: 960px;
+    margin: 20px auto;
+    font-family: arial, sans-serif;
+}
+
+div {
+    margin: 30px 10px;
+    width: 800px;
+    border:0;
+}
+
+
+input {
+    height: 25px;
+    border: 1px solid #1572c9;
+    padding: 5px;
+    
+}
+
+input[type="button"] {
+    float: right;
+    margin: 10px 490px 0 0;
+    width: 90px;
+    height: 30px;
+    background-color: #1572c9;
+    color: white;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+legend {
+    font-weight: bold;
+    margin: 10px;
+    color:black;
+    margin-left: 0px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+table {
+    font-size: 1.1em;
+}
+
+th {
+    background-color: #1572c9;
+    color: white;
+    width: 200px;
+    padding: 5px;
+}
+
+tr {
+    width: 200px;
+    line-height: 2em; 
+}
+
+td {
+    padding: 0 10px;
+}
+
+tr td:last-of-type {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #C8E5FF;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #1572c9;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+div span {
+    color: red;
+    font-size: 0.8em;
+}
